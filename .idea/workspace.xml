@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b566d1-5576-47b5-b294-01296f2cc5d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new neural net.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/neural_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_net.py" afterDir="false" />
     </list>
@@ -16,33 +16,37 @@
     <session id="-1312519287">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7023" />
+          <entry key="py" value="20749" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7023" />
+          <entry key="Python" value="20749" />
         </counts>
       </usages-collector>
     </session>
@@ -55,11 +59,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neural_net.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1013">
-              <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+            <state relative-caret-position="182">
+              <caret line="166" column="37" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="37" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-                <marker date="1536087263685" expanded="true" signature="4978:4981" ph="..." />
+                <marker date="1536934373732" expanded="true" signature="1831:1836" ph="..." />
+                <marker date="1536934373732" expanded="true" signature="3696:3697" ph="..." />
+                <marker date="1536934373732" expanded="true" signature="6530:6536" ph="..." />
+                <marker date="1536934373732" expanded="true" signature="21695:22261" ph="..." />
+                <marker date="1536934373732" expanded="true" signature="23087:23460" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,16 +84,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shape[0]</find>
-      <find>train_df</find>
-      <find>initialise_parameters_deep</find>
       <find>pp.</find>
-      <find>print</find>
       <find>drop</find>
       <find>d</find>
       <find>rename</find>
       <find>initialize</find>
       <find>initialize_parameters_deep</find>
+      <find>L_model_backward</find>
+      <find>print('Set up grads for dA:', L)</find>
+      <find>print('Set up grads for dA:',</find>
+      <find>L_layer_model</find>
+      <find>Set u</find>
+      <find>Help</find>
+      <find>grads</find>
+      <find>L_model_forward</find>
+      <find>predict</find>
+      <find>model_feature_values</find>
+      <find>model_target_values</find>
+      <find>m = self.model.model_target_values.shape_t[1]</find>
+      <find>print(self.model.parameters.values()[0])</find>
+      <find>dZ[Z &lt;= 0] = 0</find>
+      <find>print</find>
+      <find>break_points = [min_age] + 5 + [max_age]</find>
+      <find>head()</find>
+      <find>factor</find>
+      <find>show</find>
+      <find>miss</find>
+      <find>head</find>
+      <find>missingno</find>
+      <find>analyze_data</find>
+      <find>csv</find>
     </findStrings>
     <replaceStrings>
       <replace>shape[0])</replace>
@@ -104,6 +132,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/initialise_parameters_deep.py.py" />
+        <option value="$PROJECT_DIR$/new neural net.py" />
         <option value="$PROJECT_DIR$/neural_net.py" />
       </list>
     </option>
@@ -150,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.neural_net">
     <configuration name="neural_net" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="titanic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,9 +201,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="new neural net" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="titanic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new neural net.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.neural_net" />
+      <item itemvalue="Python.new neural net" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.neural_net" />
+        <item itemvalue="Python.new neural net" />
       </list>
     </recent_temporary>
   </component>
@@ -192,16 +247,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.20073763" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.1845238" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.20126449" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.20126449" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.53567624" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3094099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -229,13 +284,24 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/multiprocessing/context.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/new neural net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/neural_net.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+        <state relative-caret-position="182">
+          <caret line="166" column="37" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="37" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <marker date="1536087263685" expanded="true" signature="4978:4981" ph="..." />
+            <marker date="1536934373732" expanded="true" signature="1831:1836" ph="..." />
+            <marker date="1536934373732" expanded="true" signature="3696:3697" ph="..." />
+            <marker date="1536934373732" expanded="true" signature="6530:6536" ph="..." />
+            <marker date="1536934373732" expanded="true" signature="21695:22261" ph="..." />
+            <marker date="1536934373732" expanded="true" signature="23087:23460" ph="..." />
           </folding>
         </state>
       </provider>
